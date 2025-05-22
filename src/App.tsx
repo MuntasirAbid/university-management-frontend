@@ -1,9 +1,7 @@
+import MainLayout from "./componnents/layout/MainLayout";
+
 function App() {
-  return (
-    <>
-      <h1>University management app</h1>
-    </>
-  );
+  return <MainLayout></MainLayout>;
 }
 
 export default App;
