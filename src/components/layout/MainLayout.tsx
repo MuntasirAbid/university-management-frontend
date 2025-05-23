@@ -40,7 +40,15 @@ const MainLayout = () => {
           console.log(collapsed, type);
         }}
       >
-        <div style={{ color: "white", height: "4rem" }}>
+        <div
+          style={{
+            color: "white",
+            height: "4rem",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
           <h1>Uni Management</h1>
         </div>
         <Menu theme="dark" mode="inline" items={items} />
